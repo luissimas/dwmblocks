@@ -12,4 +12,3 @@ else
 	printf " Disconnected"	
 fi
 
-##
