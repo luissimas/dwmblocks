@@ -7,11 +7,11 @@ static const Block blocks[] = {
 
 	{"", 		"~/repos/dwmblocks/blocks/volume.sh", 	0, 			10},
 
+	{"", 		"~/repos/dwmblocks/blocks/battery.sh", 	30, 			0},
+
 	{"", 		"~/repos/dwmblocks/blocks/date.sh", 	60, 			0},
 
 	{"", 		"~/repos/dwmblocks/blocks/time.sh", 	60, 			0},
-
-
 };
 
 //sets delimeter between status commands. NULL character ('\0') means no delimeter.
