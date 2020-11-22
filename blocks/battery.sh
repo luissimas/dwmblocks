@@ -10,9 +10,9 @@ elif [ $capacity -ge 75 ]; then
 elif [ $capacity -lt 75 ] && [ $capacity -ge 50 ]; then
 	icon=" "
 elif [ $capacity -lt 50 ] && [ $capacity -ge 25 ]; then
-	icon=" "
+	icon=""
 elif [ $capacity -lt 25 ] && [ $capacity -ge 0 ]; then
-  icon=" "
+  icon=""
 fi
 
-printf "$icon$capacity%%"
+printf "$icon $capacity%%"
