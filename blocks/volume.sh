@@ -1,6 +1,6 @@
 #!/bin/sh
 
-volume="$(amixer get Master | grep 'Front Right:' | awk '{print $5}' | tr -d '[%]')"
+volume="$(amixer get Master | grep 'Mono:' | awk '{print $4}' | tr -d '[%]')"
 
 if [ $volume -gt 70 ] || [ $volume -eq 70 ]; then
 	icon=""

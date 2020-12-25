@@ -3,9 +3,11 @@ static const Block blocks[] = {
 	/*Icon*/	/*Command*/		/*Update Interval*/	/*Update Signal*/
 	{"", 		"~/repos/dwmblocks/blocks/packages.sh", 	60, 			0},
 
+	{"", 		"~/repos/dwmblocks/blocks/temp.sh", 	2, 			0},
+
 	{"", 		"~/repos/dwmblocks/blocks/network.sh", 	5, 			0},
 
-	{"", 		"~/repos/dwmblocks/blocks/memory.sh", 	5, 			0},
+//	{"", 		"~/repos/dwmblocks/blocks/memory.sh", 	5, 			0},
 
 	{"", 		"~/repos/dwmblocks/blocks/volume.sh", 	0, 			10},
 
