@@ -1,4 +1,7 @@
 #!/bin/sh
 
-packagesString="$(pacman -Qu | wc -l)"
-printf "  $packagesString"
+packagesCount="$(pacman -Qu | wc -l)"
+
+if [[ packagesCount -gt 0 ]] then
+  printf "  $packagesCount"
+fi
